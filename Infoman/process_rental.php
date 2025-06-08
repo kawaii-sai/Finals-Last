@@ -2,7 +2,7 @@
 session_start();
 include 'db_connection.php';
 
-$conn->select_db("car_rental_db");
+$conn->select_db("kotsi_db");
 
 if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     if (empty($_POST['car']) || empty($_POST['name']) || empty($_POST['email']) || empty($_POST['phone']) || empty($_POST['days'])) {
@@ -18,7 +18,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     $total_cost = $price * $days;
 
     $sql = "INSERT INTO rentals (car, price, name, email, phone, days, total_cost) VALUES (?, ?, ?, ?, ?, ?, ?)";
-    $stmt = $conn->prepare($sql);
+    $stmt = $conn->prepare(query: $sql);
 
     if ($stmt === false) {
         die("Error preparing statement: " . $conn->error);
@@ -155,7 +155,7 @@ $conn->close();
     <!-- Navbar -->
     <nav class="navbar">
         <ul>
-            <li><a href="index.php">Home</a></li>
+            <li><a href="dashboard.php">Home</a></li>
             <li><a href="dashboard.php">Dashboard</a></li>
             <li><a href="logout.php">Logout</a></li>
         </ul>
@@ -204,7 +204,7 @@ $conn->close();
 
     <!-- Footer -->
     <footer>
-        <p>&copy; 2025 Group 10. All rights reserved.</p>
+        <p>&copy; 2025 Group ABLO. All rights reserved.</p>
     </footer>
 </body>
 </html>
