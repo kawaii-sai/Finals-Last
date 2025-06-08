@@ -65,8 +65,8 @@
 
     <footer id="contact">
         <h2>Contact Us</h2>
-        <p>Email: carremtalkoto@gmail.com | Phone: +123 456 7890</p>
-        <p>© 2025 Bherliane & Kaye Car Rentaly. All rights reserved.</p>
+        <p>Email: ridemykotsi@gmail.com | Phone: +123 456 7890</p>
+        <p>© 2025 RideMyKotsi. All rights reserved.</p>
     </footer>
 
     <script src="script1.js"></script>
