@@ -8,14 +8,14 @@
   <link rel="stylesheet" href="./style.css">
   <style>
     body {
-      background-color: #121212;
+      background-color:rgb(255, 255, 255);
       color: #ffffff;
       font-family: 'Montserrat', sans-serif;
       text-align: center;
       padding: 20px;
     }
     .card {
-      background: #1e1e1e;
+      background:rgb(0, 0, 0);
       border-radius: 12px;
       padding: 20px;
       margin: 20px auto;
@@ -25,7 +25,7 @@
     }
     .card h2 {
       font-size: 24px;
-      color: #ff4c4c;
+      color:rgb(0, 89, 255);
       margin-bottom: 10px;
     }
     .card p {
@@ -34,7 +34,7 @@
     }
     .card-button {
       display: inline-block;
-      background: #ff4c4c;
+      background: rgb(0, 89, 255);
       color: #fff;
       padding: 10px 20px;
       margin-top: 15px;
@@ -43,7 +43,7 @@
       font-weight: 600;
     }
     .card-button:hover {
-      background: #e04343;
+      background:rgb(0, 89, 255);
     }
   </style>
 </head>
