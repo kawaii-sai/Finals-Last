@@ -11,7 +11,7 @@ if (!isset($_SESSION['user_id'])) {
 $host = "localhost"; // Database host
 $username = "root"; // Database username
 $password = ""; // Database password
-$database = "car_rental_db"; // Database name
+$database = "kotsi_db"; // Database name
 
 $conn = new mysqli($host, $username, $password, $database);
 
@@ -57,7 +57,7 @@ $availability = isset($_GET['availability']) ? htmlspecialchars($_GET['availabil
         }
 
         .navbar .logo span {
-            color: #ffcc00; /* Yellow accent */
+            color:rgb(0, 89, 255);
         }
 
         .navbar ul {
@@ -75,7 +75,7 @@ $availability = isset($_GET['availability']) ? htmlspecialchars($_GET['availabil
         }
 
         .navbar ul li a:hover {
-            color: #ffcc00; /* Yellow accent on hover */
+            color:rgb(0, 89, 255); /* Yellow accent on hover */
         }
 
         .rent-section {
@@ -171,7 +171,7 @@ $availability = isset($_GET['availability']) ? htmlspecialchars($_GET['availabil
     <nav class="navbar">
         <div class="container">
             <div class="row justify-content-between align-items-center">
-                <div class="logo">CarGo<span> Rentals</span></div>
+                <div class="logo">RideMy<span> Kotsi</span></div>
                 <ul>
                     <li><a href="index.php">  Home | </a></li>
                     <li><a href="dashboard.php">Dashboard | </a></li>
@@ -223,7 +223,7 @@ $availability = isset($_GET['availability']) ? htmlspecialchars($_GET['availabil
     </section>
 
     <footer>
-        <p>&copy; 2023 Group 10. All rights reserved.</p>
+        <p>&copy; 2025 RideMyKotsi. All rights reserved.</p>
     </footer>
 </body>
 </html>
