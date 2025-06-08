@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
     <link rel="stylesheet" href="style.css">
-    <title>CarGo Rentals</title>
+    <title>RideMy Kotsi</title>
     <style>
         .modal {
             display: none;
@@ -59,7 +59,7 @@
 
 <body>
     <nav>
-        <a href="#" class="logo">INF231 - Group 10</a>
+        <a href="#" class="logo">RideMyKotsi</a>
         <div class="links">
             
         <a href="features.php">Features</a>
@@ -75,7 +75,7 @@
 
     <header>
         <div class="left">
-            <h1>CarGo<span> Rentals</span></h1>
+            <h1>RideMy<span> Kotsi</span></h1>
             <p> Find the car that best suits your needs!</p>
             <a href="#">
                 <i class='bx bx-car'></i>
@@ -266,7 +266,7 @@
                 <i class='bx bxl-github'></i>
 <img src="assets/PH.png" alt="Philippine Flag" style="width: 30px; height: auto;">
             </div>
-            <p>Laforteza, Ortega, Mallari, Rumbawa</p>
+            <p>Laforteza, Ortega, Arbes, Balibado</p>
         </div>
     </footer>
     
