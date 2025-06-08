@@ -10,10 +10,10 @@
 </head> 
 <body>
     <header>
-        <h1>About CarGo Rentals</h1>
+        <h1>About RideMyKotsi</h1>
     </header>
     <div class="intro">
-        <p>Welcome to our website! We offer a range of specialized services to ensure your success online.</p>
+        <p>Welcome to RideMyKotsi! We offer a range of specialized services to ensure your success online.</p>
     </div>
     <div class="container">
         <div class="feature-box">
@@ -48,7 +48,7 @@
         </div>
     </div>
     <footer>
-        <p>© 2024 Anes Development. All rights reserved.</p>
+        <p>© 2025 ABLO Development. All rights reserved.</p>
     </footer>
 </body>
 </html>
