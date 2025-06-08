@@ -2,7 +2,7 @@
 $servername = "localhost"; // Change to your server name if needed
 $username = "root"; // Default username for XAMPP
 $password = ""; // Default password for XAMPP (leave empty)
-$database = "car_rental_db"; // Your database name
+$database = "kotsi_db"; // Your database name
 
 // Create connection
 $conn = new mysqli($servername, $username, $password, $database);
