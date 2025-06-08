@@ -14,7 +14,7 @@
         <a href="#" class="btn"></a>
     </header>
     <nav class="fixed-navbar">
-        <button class="button"><a href="#home" style="color: #fff">What We Offer</a></button>
+        <button class="button"><a href="#home" style="color: #fff">Our Offers</a></button>
         <button class="button button2"><a href="#benefits" style="color: #fff">Benefits</a></button>
         <button class="button button3"><a href="#fleet" style="color: #fff">Our Fleet</a></button>
         <button class="button button4"><a href="#pricing" style="color: #fff">Pricing</a></button>
@@ -23,7 +23,7 @@
 
     <!-- What We Offer Section -->
     <section id="home">
-        <h2 style="color: #000;">WHAT WE OFFER</h2>
+        <h2 style="color: #000;">OUR OFFERS</h2>
         <p>
             Our car rental service provides a wide range of vehicles to meet your needs. Whether you're planning a road trip, need a car for business, or just want a temporary vehicle, we have the perfect solution for you. We offer flexible rental options, competitive pricing, and exceptional customer service to ensure a seamless experience.
         </p>
