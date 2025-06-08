@@ -11,7 +11,7 @@ if (isset($_SESSION['message'])) {
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>INF231 - Car Rental System</title>
+    <title>INF231 - RideMyKotsi</title>
     <link rel="stylesheet" href="style3.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/material-icons@1.13.12/iconfont/material-icons.min.css">
@@ -20,7 +20,7 @@ if (isset($_SESSION['message'])) {
     <nav class="navbar">
         <div class="container">
             <div class="row justify-content-between align-items-center">
-                <div class="logo">INF231 - Group<span>10</span></div>
+                <div class="logo">RideMy<span>Kotsi</span></div>
                 <input type="checkbox" name="" id="click">
                 <label for="click" class="menu-btn">
                     <i class="material-icons">menu</i>
@@ -39,8 +39,8 @@ if (isset($_SESSION['message'])) {
             <div class="row full-screen align-items-center">
                 <div class="left">
                     <span class="line"></span>
-                    <h2>Hello, Welcome <br> to <span>CarGo Rentals</span></h2>
-                    <p>Your trusted rental partner.</p>
+                    <h2>Hello! Welcome <br> to <span>RideMy Kotsi</span></h2>
+                    <p>Rent the best car at the right price.</p>
                     <a href="#" class="btn">Contact</a>
 
                     <div class="social-media">
